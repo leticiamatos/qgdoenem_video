@@ -1,7 +1,8 @@
 <div class="general block_wpr video_like">
 	<section class="block_cntt">
-		<div id="video" class="player_wpr">
-			Here goes player!
+		<div  class="player_wpr">
+			<div id="video">
+			</div>
 		</div>
 		<footer>
 			<a href="http://www.enem.com.br" target="_blank" alt="QG do Enem"></a>
