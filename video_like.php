@@ -23,7 +23,9 @@
 		primary: 'flash',
 		skin: 'script/jw6/skins/beelden.xml',
 		playlist: [{
-			file : "http://renatosaraiva-f.akamaihd.net/rsaraiva_1_16@37037",
+			provider: 'http://players.edgesuite.net/flash/plugins/jw/v3.2/AkamaiAdvancedJWStreamProvider.swf',
+			type: "mp4",
+			file : "http://renatosaraiva-f.akamaihd.net/rsaraiva_1_16@37037"
 		}]
 	};
 
@@ -48,6 +50,8 @@
 		if(typeof(document.createElement('video').canPlayType) != undefined) {
 			// "Your browser includes support for HTML5 video";
 			setupVar['playlist'] = [{
+				type: "mp4",
+				provider: "video",
 				file: "http://rsaraiva_ios-i.akamaihd.net/hls/live/203931/cers16/playlist.m3u8"
 			}];
 		}
