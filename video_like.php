@@ -9,9 +9,9 @@
 			<a href="http://www.cers.com.br" target="_blank" alt="Cers - Complexo de Ensino Renato Saraiva"></a>
 		</footer>
 	</section>
-</div>
 
-<div class="fb-comments" data-href="http://www.enem.com.br#qgdoenem-desafiosei" data-numposts="10" data-width="800"></div>
+	<div class="fb-comments" data-href="http://www.enem.com.br#qgdoenem-desafiosei" data-numposts="10" data-width="800"></div>
+</div>
 
 <script src="script/jquery-1.9.1.js" type="text/javascript"></script>
 <script src="script/jw6/jwplayer.js" type="text/javascript"></script>
