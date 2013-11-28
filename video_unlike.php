@@ -10,3 +10,5 @@
 		</footer>
 	</section>
 </div>
+
+<div class="fb-comments" data-href="http://www.enem.com.br#qgdoenem-desafiosei_unlike" data-numposts="10" data-width="800"></div>

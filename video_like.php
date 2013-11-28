@@ -11,6 +11,9 @@
 	</section>
 </div>
 
+<div class="fb-comments" data-href="http://www.enem.com.br#qgdoenem-desafiosei" data-numposts="10" data-width="800"></div>
+
+<script src="script/jquery-1.9.1.js" type="text/javascript"></script>
 <script src="script/jw6/jwplayer.js" type="text/javascript"></script>
 <script type="text/javascript">jwplayer.key="Rf+04i9NkiWHUtD93d4ECBX/KFPYRc1pScFRjYaLymQ=";</script>
 <script>
