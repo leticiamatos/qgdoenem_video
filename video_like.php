@@ -50,8 +50,8 @@
 		if(typeof(document.createElement('video').canPlayType) != undefined) {
 			// "Your browser includes support for HTML5 video";
 			setupVar['playlist'] = [{
-				type: "mp4",
 				provider: "video",
+				type: "mp4",
 				file: "http://rsaraiva_ios-i.akamaihd.net/hls/live/203931/cers16/playlist.m3u8"
 			}];
 		}
