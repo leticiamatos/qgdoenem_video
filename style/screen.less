@@ -1,0 +1,80 @@
+
+/* ------------------------------------
+  CSS
+  Author: Letícia Matos | leticiamatos.com | CERS - Complexo de Ensino Renato Saraiva
+------------------------------------ */ 
+
+/* =============================================================================
+   Variables
+========================================================================== */
+
+  /* Colors */
+  @cTest:rgba(0,255,0,0.5);  
+  
+  /* Measures */
+  @width:810px;
+  .width_center{
+    width: @width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.clear{
+  display: block; 
+  clear: both;
+}
+/* Content */
+.block_wpr{
+  width: 100%;
+  text-align: center;
+  .block_cntt{
+    width: 790px;
+    margin: 0 auto;
+    text-align: left;
+  }
+}
+
+.video_like{
+  .block_cntt{
+    height: 780px;
+    background: url(../img/video_like.jpg) top center no-repeat;
+    position: relative;
+  }
+  .player_wpr{
+    width: 640px;
+    height: 355px;
+    background: #ccc;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    top:220px;
+  }
+}
+.video_unlike{
+  .block_cntt{
+    height: 780px;
+    position: relative;
+    background: url(../img/video_unlike.jpg) top center no-repeat;
+  }
+}
+footer{
+  display: block;
+  width: 290px;
+  //background: @cTest;
+  position: absolute;
+  bottom:55px;
+  right: 90px;
+  a{
+    display: block;
+    float: left;
+    height: 45px;
+    //background: @cTest;
+  }
+  a:nth-child(1){
+    width: 140px;
+  }
+  a:nth-child(2){
+    margin-left: 40px;
+    width: 109px;
+  }
+}

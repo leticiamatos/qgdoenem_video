@@ -1,0 +1,6 @@
+/* ------------------------------------
+  CSS
+  Author: Letícia Matos | leticiamatos.com | CERS - Complexo de Ensino Renato Saraiva
+------------------------------------ */
+.width_center{width:810px;margin-left:auto;margin-right:auto}.clear{display:block;clear:both}.block_wpr{width:100%;text-align:center}.block_wpr .block_cntt{width:790px;margin:0 auto;text-align:left}.video_like .block_cntt{height:780px;background:url(../img/video_like.jpg) top center no-repeat;position:relative}.video_like .player_wpr{width:640px;height:355px;background:#ccc;text-align:center;position:relative;margin:0 auto;top:220px}.video_unlike .block_cntt{height:780px;position:relative;background:url(../img/video_unlike.jpg) top center no-repeat}footer{display:block;width:290px;position:absolute;bottom:55px;right:90px}footer a{display:block;float:left;height:45px}footer a:nth-child(1){width:140px}footer a:nth-child(2){margin-left:40px;width:109px}
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
