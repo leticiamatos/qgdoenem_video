@@ -12,7 +12,7 @@
 	$signedRequest = $facebook->getSignedRequest();
 	
 	// Inspect the signed request
-	$unlike = ($signedRequest['page']['liked'] == 1)? "_like" : "_unlike";
+	$unlike = ($signedRequest['page']['liked'] == 1)? "_like" : "_like";
 	include("video" . $unlike . ".php");
 
 	include("footer.php");
