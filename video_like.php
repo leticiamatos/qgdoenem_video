@@ -19,6 +19,7 @@
 <script>
 
 	var setupVar = {
+		autoPlay: true,
 		flashplayer: 'script/jw6/jwplayer.flash.swf',
 		html5player: 'script/jw6/jwplayer.html5.js',
 		height: 355,
