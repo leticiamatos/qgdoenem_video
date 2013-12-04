@@ -1,6 +1,7 @@
 <?php
 
 	include("header.php");
+	include("google_analytics.php");
 	
 	// create the Facebook Graph SDK object
 	require 'src/facebook.php';
