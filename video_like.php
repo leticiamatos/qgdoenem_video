@@ -1,12 +1,15 @@
 <div class="general block_wpr video_like">
 	<section class="block_cntt">
+		<header>
+			<a href="http://www.enem.com.br" target="_blank"><img src="img/linha01.png" /></a>
+		</header>
 		<div  class="player_wpr">
 			<div id="video">
 			</div>
 		</div>
 		<footer>
-			<a href="http://www.enem.com.br" target="_blank" alt="QG do Enem"></a>
-			<a href="http://www.cers.com.br" target="_blank" alt="Cers - Complexo de Ensino Renato Saraiva"></a>
+			<a href="http://www.enem.com.br" target="_blank" alt="QG do Enem" class="link_qg"><img src="img/logo-qg.png" /></a>
+			<a href="http://www.cers.com.br" target="_blank" alt="Cers - Complexo de Ensino Renato Saraiva" class="link_cers"><img src="img/logo-cers.png" /></a>
 		</footer>
 	</section>
 
