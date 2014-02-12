@@ -13,7 +13,7 @@
 		</footer>
 	</section>
 
-	<div class="fb-comments" data-href="http://www.enem.com.br#qgdoenem-desafiosei" data-numposts="10" data-width="800"></div>
+	<div class="fb-comments" data-href="http://www.enem.com.br#qgaovivo" data-numposts="10" data-width="800"></div>
 </div>
 
 <script src="script/jquery-1.9.1.js" type="text/javascript"></script>
