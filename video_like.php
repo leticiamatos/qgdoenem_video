@@ -32,7 +32,7 @@
 		playlist: [{
 			provider: 'http://players.edgesuite.net/flash/plugins/jw/v3.2/AkamaiAdvancedJWStreamProvider.swf',
 			type: "mp4",
-			file : "http://renatosaraiva-f.akamaihd.net/rsaraiva_1_16@37037"
+			file : "http://renatosaraiva-f.akamaihd.net/rsaraiva_1_6@37037"
 		}]
 	};
 
@@ -59,7 +59,7 @@
 			setupVar['playlist'] = [{
 				provider: "video",
 				type: "mp4",
-				file: "http://rsaraiva_ios-i.akamaihd.net/hls/live/203931/cers16/playlist.m3u8"
+				file: "http://rsaraiva_ios-i.akamaihd.net/hls/live/203931/cers6/playlist.m3u8"
 			}];
 		}
 	}
