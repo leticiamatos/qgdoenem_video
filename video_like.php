@@ -30,7 +30,7 @@
 		primary: 'flash',
 		skin: 'script/jw6/skins/beelden.xml',
 		playlist: [{
-			provider: 'http://players.edgesuite.net/flash/plugins/jw/v3.2/AkamaiAdvancedJWStreamProvider.swf',
+			provider: 'http://players.edgesuite.net/flash/plugins/jw/v3.3/AkamaiAdvancedJWStreamProvider.swf',
 			type: "mp4",
 			file : "http://renatosaraiva-f.akamaihd.net/rsaraiva_1_16@37037"
 		}]
