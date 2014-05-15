@@ -29,7 +29,7 @@
 		width: 640,
 		primary: 'flash',
 		skin: 'script/jw6/skins/beelden.xml',
-		file : "http://cers100hls-lh.akamaihd.net/i/qg_16_2@192459/master.m3u8",
+		file : "http://cers100hls-lh.akamaihd.net/i/qg_16_3@192459/master.m3u8",
 		provider: 'http://players.edgesuite.net/flash/plugins/jw/v3.3/AkamaiAdvancedJWStreamProvider.swf'
 	};
 
