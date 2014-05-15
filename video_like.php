@@ -30,6 +30,7 @@
 		primary: 'flash',
 		skin: 'script/jw6/skins/beelden.xml',
 		playlist: [{
+			type : "mp3"
 			file : "http://cers100hls-lh.akamaihd.net/i/qg_16@192459/master.m3u8",
 			provider: 'http://players.edgesuite.net/flash/plugins/jw/v3.3/AkamaiAdvancedJWStreamProvider.swf'
 		}]
@@ -58,7 +59,7 @@
 			//setupVar['provider'] = "video";
 			//setupVar['file'] = "http://cers100hls-lh.akamaihd.net/i/qg_16@192459/master.m3u8";
 			setupVar['playlist'] = [{
-				type : "mp4",
+				type : "mp3",
 				file : "http://cers100hls-lh.akamaihd.net/i/qg_16@192459/master.m3u8",
 				provider: 'video'
 			}];
