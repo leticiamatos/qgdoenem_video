@@ -54,8 +54,7 @@
 		if(typeof(document.createElement('video').canPlayType) != undefined) {
 			// "Your browser includes support for HTML5 video";
 			setupVar['provider'] = "video";
-			setupVar['file'] = "http://cers100hls-lh.akamaihd.net/i/cers_16@192459/master.m3u8"
-			}];
+			setupVar['file'] = "http://cers100hls-lh.akamaihd.net/i/cers_16@192459/master.m3u8";
 		}
 	}
 
