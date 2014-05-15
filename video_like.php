@@ -29,8 +29,11 @@
 		width: 640,
 		primary: 'flash',
 		skin: 'script/jw6/skins/beelden.xml',
-		provider: 'http://players.edgesuite.net/flash/plugins/jw/v3.3/AkamaiAdvancedJWStreamProvider.swf',
-		file : "http://cers100hls-lh.akamaihd.net/i/qg_16@192459/master.m3u8"
+		playlist: [{
+			type : "mp4",
+			file : "http://cers100hls-lh.akamaihd.net/i/qg_16@192459/master.m3u8",
+			provider: 'http://players.edgesuite.net/flash/plugins/jw/v3.3/AkamaiAdvancedJWStreamProvider.swf'
+		}]
 	};
 
 	/***********************************************************************************/
@@ -53,8 +56,13 @@
 		// "Your browser has not installed Adobe Flash";
 		if(typeof(document.createElement('video').canPlayType) != undefined) {
 			// "Your browser includes support for HTML5 video";
-			setupVar['provider'] = "video";
-			setupVar['file'] = "http://cers100hls-lh.akamaihd.net/i/qg_16@192459/master.m3u8";
+			//setupVar['provider'] = "video";
+			//setupVar['file'] = "http://cers100hls-lh.akamaihd.net/i/qg_16@192459/master.m3u8";
+			setupVar['playlist'] = [{
+				type : "mp4",
+				file : "http://cers100hls-lh.akamaihd.net/i/qg_16@192459/master.m3u8",
+				provider: 'video'
+			}];
 		}
 	}
 
